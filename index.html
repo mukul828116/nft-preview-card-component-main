@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color:rgb(9, 6, 47) ;
+    }
+    #phone-layout{
+             background-color: rgb(22, 32, 66);     
+             height: 380px;
+             width: 210px;
+             margin: 100px;
+             position: absolute;
+             left: 400px;
+             box-shadow: 0px 0px 27px 1px rgb(12, 12, 32);
+             border-radius: 5px;
+
+    }
+    h4{
+      color: white;
+      margin-right:100px;
+      width: 150px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      position: relative;
+      bottom: 20px;
+      left: 13px;
+
+    }
+    #equillibrium{
+      height: 180px;
+      padding:10px;
+      margin: 5px auto auto;
+      border-radius: 15px;
+      position: relative;
+      left: 2%;
+
+    }
+    #para2{
+      color: rgb(154, 167, 241);
+      font-size: 12px;
+      position: relative;
+    bottom: 35px;
+    left: 13px;
+    }
+    #howmuch{
+      font-size: 10px;
+      color: aqua;
+      position: relative;
+      bottom: 20px;
+      left: 30px;
+      
+
+    }
+    #time{
+      position: relative;
+      left: 98px;
+      bottom: 20px;
+      font-size: 10px;
+      color: whitesmoke;
+    }
+    hr{
+      width: 150px;
+      position: relative;
+      bottom: 10px;
+      height: 0;
+      
+    }
+    #clock{
+      position: relative;
+      bottom: 15px;
+      left: 20px;
+    }
+    span{
+      font-size: 10px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      position: relative;
+      left: 45px;
+      bottom: 10px;
+    }
+  #creator{
+    color: rgb(110, 144, 218);
+  }
+    #name{
+      color: whitesmoke;
+    }
+    #owner{
+      width: 15px;
+      position: relative;
+      right: 95px;
+      bottom: 6px;
+      border: 1px solid white;
+      border-radius: 100%;
+    }
+    #ethereum{
+      position: relative;
+      right: 80px;
+      bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+<div id="phone-layout">
+  <img   src="/images/image-equilibrium.jpg" alt="equilibrium" id="equillibrium">
+  <h4>Equilibrium #3429  </h4>
+
+  <small id="para2">
+    Our Equilibrium collection promotes balance and calm.
+  </small>
+  <br>
+   <small id="howmuch"><strong> 0.041 ETH </strong></small>
+  <small id="time"> 3 days left</small>
+<img src="/images/icon-ethereum.svg" alt="ethereum" id="ethereum">
+
+  <svg   id="clock" width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+  <hr>
+
+ <span id="creator" >Creation of </span>
+ <span id="name">Jules Wyvern</span>
+
+   <img src="/images/image-avatar.png" alt=" owner of equilibrium" id="owner">
+
+
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mukul kumar</a>.
+  </div>
+</body>
+</html>
